@@ -6,7 +6,7 @@ st.write("enter a number to calculate its square,cube,and fifth power.")
 n=st.number_input("Enter a integer",value=1,step=1)
 
 square=n**2
-cube=n**3
+cube=n**5
 fifth_power=n**5
 
 st.write(f"the square of {n} is :{square}")
