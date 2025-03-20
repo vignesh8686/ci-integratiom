@@ -10,7 +10,7 @@ def fifth_power(n):
     return n**5
 
 def test_square():
-    assert square(2)==5,"test Failed: square of 2 should be 4"
+    assert square(2)==4,"test Failed: square of 2 should be 4"
     assert square(3)==9,"test Failed:square of 3 should be 9"
 
 def test_cube():
